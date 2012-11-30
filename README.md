@@ -12,8 +12,8 @@ Flatland is a Sublime package. To install it:
 
 ```javascript
 {
-  "theme": "Flatland.sublime-theme"
-  "color_scheme": "Packages/Theme - Flatland/Flatland.tmtheme",
+  "theme": "Flatland.sublime-theme",
+  "color_scheme": "Packages/Theme - Flatland/Flatland.tmtheme"
 }
 ```
 
