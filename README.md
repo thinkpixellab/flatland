@@ -10,11 +10,11 @@ Flatland is a Sublime package. To install it:
 2. Unzip the files and copy the folder called "Theme - Flatland" into your Sublime Text 2 Packages directory. You can find that directory by selecting "Preferences > Browse Packages ...".
 3. Activate the theme by modifying your user preferences to include the following:
 
-'''javascript
+```javascript
 {
   "theme": "Flatland.sublime-theme"
   "color_scheme": "Packages/Theme - Flatland/Flatland.tmtheme",
 }
-'''
+```
 
 If you need help locating your user preferences file, you can find it selecting "Preferences > Settings - User".
