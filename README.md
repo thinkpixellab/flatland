@@ -1,8 +1,14 @@
 # Flatland
+
 ## About
+
 Flatland is a simple theme and accompanying color scheme for Sublime Text 2. It is mostly derived from  [Soda](https://github.com/buymeasoda/soda-theme), the right place to start for any custom theme development for Sublime. Thanks Soda!
+
 ## Design
-(Need screenshots)
+
+![Screen Shot!](https://raw.github.com/thinkpixellab/flatland/master/resources/flatland_screen.png)
+
+
 ## Installation
 Flatland is a Sublime package. To install it:
 
