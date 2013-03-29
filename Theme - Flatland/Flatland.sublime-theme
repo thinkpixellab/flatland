@@ -640,7 +640,7 @@
     },
     {
         "class": "quick_panel_label",
-        "fg": [30, 30, 30, 255],
+        "fg": [255, 255, 255],
         "match_fg": [43, 151, 237, 255],
         "selected_fg": [30, 30, 30, 255], //selected foreground
         "selected_match_fg": [43, 151, 237, 255]
