@@ -640,17 +640,17 @@
     },
     {
         "class": "quick_panel_label",
-        "fg": [30, 30, 30, 255],
-        "match_fg": [43, 151, 237, 255],
-        "selected_fg": [30, 30, 30, 255], //selected foreground
-        "selected_match_fg": [43, 151, 237, 255]
+        "fg": [144, 146, 147],
+        "match_fg": [36, 150, 233, 255],
+        "selected_fg": [255, 255, 255, 255], //selected foreground
+        "selected_match_fg": [37, 40, 43, 255]
     },
     {
         "class": "quick_panel_path_label",
-        "fg": [120, 120, 120, 255],
-        "match_fg": [43, 151, 237, 255],
-        "selected_fg": [120, 120, 120, 255],
-        "selected_match_fg": [43, 151, 237, 255]
+        "fg": [104, 106, 107, 255],
+        "match_fg": [16, 130, 213, 255],
+        "selected_fg": [215, 215, 215, 255],
+        "selected_match_fg": [57, 60, 63, 255]
     },
     {
         "class": "quick_panel_score_label",
