@@ -146,6 +146,24 @@
         "layer0.opacity": 1.0,
         "layer1.opacity": 0.0
     },
+    // SQUARE TABS
+    {
+        "class": "tabset_control",
+        "settings": ["flatland_square_tabs"],
+        "layer0.texture": "Theme - Flatland/square/tabset-background.png",
+        "content_margin": [0, 0, 0, 0]
+        // "tab_overlap": 5
+    },
+    {
+        "class": "tab_control",
+        "settings": ["flatland_square_tabs"],
+        // Inactive tab settings
+        "layer0.texture": "Theme - Flatland/square/tab-inactive.png",
+        // Active tab setting
+        "layer1.texture": "Theme - Flatland/square/tab-active.png",
+        // Hover tab setting
+        "layer2.texture": "Theme - Flatland/square/tab-hover.png"
+    },
 
 //
 // FOLD BUTTONS
@@ -615,6 +633,12 @@
         "layer1.inner_margin": [20, 40, 20, 20],
         "layer1.opacity": 1.0,
         "content_margin": [20, 0, 20, 26] // content margin
+    },
+    // Square tabs modify height, move content margin for quick panel
+    {
+        "class": "overlay_control",
+        "settings": ["flatland_square_tabs"],
+        "content_margin": [20, 4, 20, 26]
     },
 
 //
