@@ -24,3 +24,16 @@ Flatland is a Sublime package. To install it:
 ```
 
 If you need help locating your user preferences file, you can find it selecting "Preferences > Settings - User".
+
+## Optional Settings
+The following options can be set in your user preferences:
+
+```javascript
+{
+  // square file tabs instead of rounded corners
+  "flatland_square_tabs": true, 
+  
+  // Monokai theme (SublimeText's default) with Flatland background color
+  "color_scheme": "Packages/Theme - Flatland/Flatland-Monokai.tmTheme"  
+}
+```
