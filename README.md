@@ -30,7 +30,16 @@ You can also install it manually by following these instructions:
 ```javascript
 {
   "theme": "Flatland.sublime-theme",
-  "color_scheme": "Packages/flatland/Theme - Flatland/Flatland.tmTheme"
+  "color_scheme": "Packages/flatland/Color Scheme/Flatland.tmTheme"
+}
+```
+
+Or for the blue variant:
+
+```javascript
+{
+  "theme": "FlatlandB.sublime-theme",
+  "color_scheme": "Packages/flatland/Color Scheme/Flatland.tmTheme"
 }
 ```
 
@@ -42,9 +51,9 @@ The following options can be set in your user preferences:
 ```javascript
 {
   // square file tabs instead of rounded corners
-  "flatland_square_tabs": true, 
-  
+  "flatland_square_tabs": true,
+
   // Monokai theme (SublimeText's default) with Flatland background color
-  "color_scheme": "Packages/flatland/Theme - Flatland/Flatland-Monokai.tmTheme"
+  "color_scheme": "Packages/flatland/Color Sceme/Flatland-Monokai.tmTheme"
 }
 ```
