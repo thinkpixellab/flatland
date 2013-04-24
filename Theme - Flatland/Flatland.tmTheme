@@ -92,7 +92,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#72aaca</string>
+				<string>#72AACA</string>
 			</dict>
 		</dict>
 		<dict>
@@ -144,7 +144,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#72aaca</string>
+				<string>#72AACA</string>
 			</dict>
 		</dict>
 		<dict>
@@ -203,7 +203,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#b7d877</string>
+				<string>#B7D877</string>
 			</dict>
 		</dict>
 		<dict>
@@ -216,7 +216,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#b7d877</string>
+				<string>#B7D877</string>
 			</dict>
 		</dict>
 		<dict>
@@ -227,7 +227,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#b7d877</string>
+				<string>#B7D877</string>
 			</dict>
 		</dict>
 		<dict>
@@ -275,7 +275,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#b7d877</string>
+				<string>#B7D877</string>
 			</dict>
 		</dict>
 		<dict>
@@ -308,7 +308,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#b7d877</string>
+				<string>#B7D877</string>
 			</dict>
 		</dict>
 		<dict>
@@ -352,7 +352,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#72aaca</string>
+				<string>#72AACA</string>
 			</dict>
 		</dict>
 		<dict>
@@ -424,7 +424,7 @@
 				<key>background</key>
 				<string>#D03620</string>
 				<key>foreground</key>
-				<string>#F8F8F8</string>
+				<string>#EB939A</string>
 			</dict>
 		</dict>
 		<dict>
@@ -437,7 +437,7 @@
 				<key>background</key>
 				<string>#C4B14A</string>
 				<key>foreground</key>
-				<string>#F8F8F8</string>
+				<string>#72AACA</string>
 			</dict>
 		</dict>
 		<dict>
@@ -450,7 +450,7 @@
 				<key>background</key>
 				<string>#41A83E</string>
 				<key>foreground</key>
-				<string>#F8F8F8</string>
+				<string>#B7D877</string>
 			</dict>
 		</dict>
 		<dict>
