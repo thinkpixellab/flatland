@@ -706,6 +706,17 @@
 				<string>#73817D</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>Bracket Default</string>
+			<key>scope</key>
+			<string>brackethighlighter.default</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#72AACA</string>
+			</dict>
+		</dict>
 	</array>
 	<key>uuid</key>
 	<string>13E579BF-40AB-42E2-9EAB-0AD3EDD88532</string>
