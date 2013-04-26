@@ -582,7 +582,7 @@
     {
         "class": "button_control",
         "content_margin": [4, 6, 4, 5],
-        "min_size": [64, 0],
+        "min_size": [69, 0],
         // Default button state
         "layer0.texture": "flatland/Theme - Flatland/btn-large.png",
         "layer0.opacity": 1.0,
