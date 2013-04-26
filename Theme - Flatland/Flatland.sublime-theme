@@ -581,7 +581,7 @@
     // Standard buttons (used for Find / Replace panel)
     {
         "class": "button_control",
-        "content_margin": [4, 6, 4, 5],
+        "content_margin": [4, 7, 4, 8],
         "min_size": [69, 0],
         // Default button state
         "layer0.texture": "Theme - Flatland/Theme - Flatland/btn-large.png",
@@ -608,8 +608,8 @@
         "class": "text_line_control",
         "layer0.texture": "Theme - Flatland/Theme - Flatland/text-field.png",
         "layer0.opacity": 1.0,
-        "layer0.inner_margin": [10,10,10,10],
-        "content_margin": [4, 5, 15, 4]
+        "layer0.inner_margin": [4, 6, 4, 8],
+        "content_margin": [7, 5, 8, 0]
     },
 
 //
@@ -743,7 +743,7 @@
         "layer0.texture": "Theme - Flatland/Theme - Flatland/btn-group-middle.png",
         "layer0.inner_margin": [6, 6],
         "layer0.opacity": 1.0,
-        "content_margin": [4, 4,4,5]
+        "content_margin": [4,6,4,7]
     },
     // Button group left
     {
@@ -751,7 +751,7 @@
         "attributes": ["left"],
         "layer0.texture": "Theme - Flatland/Theme - Flatland/btn-group-left.png",
         "layer0.opacity": 1.0,
-        "content_margin": [8,4,5,5]
+        "content_margin": [8,6,5,7]
     },
     // Button group right
     {
@@ -759,7 +759,7 @@
         "attributes": ["right"],
         "layer0.texture": "Theme - Flatland/Theme - Flatland/btn-group-right.png",
         "layer0.opacity": 1.0,
-        "content_margin": [4,4,8,5]
+        "content_margin": [4,6,8,7]
     },
     // Button single
     {
@@ -767,7 +767,7 @@
         "attributes": ["left", "right"],
         "layer0.texture": "Theme - Flatland/Theme - Flatland/btn-single.png",
         "layer0.opacity": 1.0,
-        "content_margin": [8,4,8,5]
+        "content_margin": [8,6,8,7]
     },
 
 //
