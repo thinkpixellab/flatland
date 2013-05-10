@@ -146,6 +146,12 @@
         "layer0.opacity": 1.0,
         "layer1.opacity": 0.0
     },
+    {
+        // Tab dirty state (close button hidden, not active tab)
+        "class": "tab_control",
+        "settings": ["!show_tab_close_buttons"], 
+        "content_margin": [12, 5, 2, 12]
+    },
     // SQUARE TABS
     {
         "class": "tabset_control",
