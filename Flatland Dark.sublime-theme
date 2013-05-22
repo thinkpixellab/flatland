@@ -23,7 +23,7 @@
     // Tab element
     {
         "class": "tab_control",
-        "content_margin": [28, 6, 28, 4],
+        "content_margin": [12, -5, 8, 4],
         "max_margin_trim": 0,
         "hit_test_level": 0.5,
         // Inactive tab settings
@@ -38,18 +38,6 @@
         "layer2.texture": "Theme - Flatland/Flatland Dark/tab-hover.png",
         "layer2.inner_margin": [20, 4],
         "layer2.opacity": 0.0
-    },
-    {
-        // Tab close state
-        "class": "tab_control",
-        "settings": ["show_tab_close_buttons"],
-        "content_margin": [12, -5, 8, 4]
-    },
-    {
-        // Tab close state - show tab close buttons disabled
-        "class": "tab_control",
-        "settings": ["!show_tab_close_buttons"],
-        "content_margin": [12, -5, 8, 4]
     },
     {
         // Hover tab state
