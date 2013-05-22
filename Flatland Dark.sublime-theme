@@ -10,7 +10,7 @@
         "layer0.opacity": 1.0,
         "content_margin": [0, 4, 0, 0],
         "tab_overlap": 6,
-        "tab_width": 160,
+        "tab_width": 200,
         "tab_min_width": 48,
         "tab_height": 34,
         "mouse_wheel_switch": false
@@ -43,6 +43,12 @@
         // Tab close state
         "class": "tab_control",
         "settings": ["show_tab_close_buttons"],
+        "content_margin": [12, -5, 8, 4]
+    },
+    {
+        // Tab close state - show tab close buttons disabled
+        "class": "tab_control",
+        "settings": ["!show_tab_close_buttons"],
         "content_margin": [12, -5, 8, 4]
     },
     {
@@ -135,7 +141,7 @@
         "class": "tab_control",
         "settings": ["!show_tab_close_buttons", "highlight_modified_tabs"],
         "attributes": ["dirty"],
-        "content_margin": [22, 6, 15, 4]
+        "content_margin": [12, -5, 8, 4]
     },
     {
         // Tab dirty button (close button hidden)
@@ -145,12 +151,6 @@
         "content_margin": [8, 8],
         "layer0.opacity": 1.0,
         "layer1.opacity": 0.0
-    },
-    {
-        // Tab dirty state (close button hidden, not active tab)
-        "class": "tab_control",
-        "settings": ["!show_tab_close_buttons"], 
-        "content_margin": [12, 5, 2, 12]
     },
     // SQUARE TABS
     {
