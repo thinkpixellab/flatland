@@ -23,7 +23,7 @@
     // Tab element
     {
         "class": "tab_control",
-        "content_margin": [12, -5, 8, 4],
+        "content_margin": [12, -5, 12, 4],
         "max_margin_trim": 0,
         "hit_test_level": 0.5,
         // Inactive tab settings
@@ -603,7 +603,7 @@
         "layer0.texture": "Theme - Flatland/Flatland Dark/text-field.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [10,10,10,10],
-        "content_margin": [4, 5, 15, 4]
+        "content_margin": [4,5]
     },
 
 //
