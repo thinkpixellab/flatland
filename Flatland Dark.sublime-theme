@@ -741,7 +741,6 @@
     {
         "class": "icon_button_control",
         "layer0.texture": "Theme - Flatland/Flatland Dark/btn-group-middle.png",
-        "layer0.inner_margin": [6, 6],
         "layer0.opacity": 1.0,
         "content_margin": [4, 4,4,5]
     },
