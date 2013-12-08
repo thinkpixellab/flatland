@@ -65,7 +65,7 @@
         "fade": false,
         "fg": [144, 146, 147],
         "font.bold" : false,
-        "font.size" : 12
+        "font.size" : 12 //change to 11 if bottom of text is getting cutoff in tab
     },
     {
         "class": "tab_label",
@@ -463,7 +463,8 @@
     // Sidebar rows
     {
         "class": "tree_row",
-        "layer0.texture": "Theme - Flatland/Flatland Dark/sidebar-row-selected.png",
+        "layer0.texture": "Theme - Flatland/Flatland Dark/sidebar-row-selected.png", 
+        //change to sidebar-row-selected-grey.png for grey sidebar highlighting
         "layer0.opacity": 0.0,
         "layer0.inner_margin": [1,1]
     },
