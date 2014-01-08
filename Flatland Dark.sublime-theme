@@ -23,7 +23,7 @@
     // Tab element
     {
         "class": "tab_control",
-        "content_margin": [28, 6, 28, 4],
+        "content_margin": [28, 0, 28, 6],
         "max_margin_trim": 0,
         "hit_test_level": 0.5,
         // Inactive tab settings
