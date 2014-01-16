@@ -58,7 +58,7 @@
 				<string>#798188</string>
 			</dict>
 		</dict>
-	        <dict>
+		<dict>
 			<key>name</key>
 			<string>Python Docstring</string>
 			<key>scope</key>
