@@ -69,6 +69,11 @@
     },
     {
         "class": "tab_label",
+        "attributes": ["transient"],
+        "font.italic": true
+    },
+    {
+        "class": "tab_label",
         "parents": [{"class": "tab_control", "attributes": ["hover"]}],
         "fg": [255, 255, 255]
     },
