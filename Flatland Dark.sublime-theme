@@ -467,6 +467,14 @@
         "layer0.opacity": 0.0,
         "layer0.inner_margin": [1,1]
     },
+    // Settings for gray selected sidebar
+    {
+        "settings": ["flatland_gray_selected_sidebar"],
+        "class": "tree_row",
+        "layer0.texture": "Theme - Flatland/Flatland Dark/sidebar-row-selected-gray.png",
+        "layer0.opacity": 0.0,
+        "layer0.inner_margin": [1,1]
+    },
     // Sidebar row selected
     {
         "class": "tree_row",
