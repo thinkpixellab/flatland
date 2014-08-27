@@ -600,6 +600,23 @@
     },
 
 //
+// HIDE ST3 FILE ICONS FOR NOW (TODO: REMOVE ST2 STYLE ICONS)
+//
+    {
+        "class": "icon_file_type",
+        "content_margin": [0,0]
+    },
+    {
+        "class": "icon_folder",
+        "content_margin": [0,0]
+    },
+    {
+        "class": "icon_folder_loading",
+        "content_margin": [0,0]
+    },
+
+
+//
 // STANDARD TEXT BUTTONS
 //
 
