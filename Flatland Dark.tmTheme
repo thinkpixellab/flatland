@@ -41,7 +41,12 @@
 				<string>#73797b30</string>
 
 				<key>activeGuide</key>
-				<string>#73797b60</string>
+				<string>#bada5560</string>
+
+				<key>stackGuide</key>
+				<string>#73797b50</string>
+
+
 				
 			</dict>
 		</dict>
