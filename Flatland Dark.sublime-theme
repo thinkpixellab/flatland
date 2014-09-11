@@ -15,11 +15,19 @@
         "tab_height": 34,
         "mouse_wheel_switch": false
     },
+     // Tab set blue
+    {
+        "class": "tabset_control",
+        "settings": ["flatland_blue"],
+        "layer0.texture": "Theme - Flatland/Flatland Dark/tabset-background-blue.png"
+    },
+
     {
         "class": "tabset_control",
         "settings": ["mouse_wheel_switches_tabs"],
         "mouse_wheel_switch": true
     },
+
     // Tab element
     {
         "class": "tab_control",
@@ -38,6 +46,14 @@
         "layer2.texture": "Theme - Flatland/Flatland Dark/tab-hover.png",
         "layer2.inner_margin": [20, 4],
         "layer2.opacity": 0.0
+    },
+    // Tab element blue
+    {
+        "class": "tab_control",
+        "settings": ["flatland_blue"],
+        "layer0.texture": "Theme - Flatland/Flatland Dark/tab-inactive-blue.png",
+        "layer1.texture": "Theme - Flatland/Flatland Dark/tab-active-blue.png",
+        "layer2.texture": "Theme - Flatland/Flatland Dark/tab-hover-blue.png",
     },
     {
         // Tab close state
@@ -163,6 +179,25 @@
         "layer1.texture": "Theme - Flatland/Flatland Dark/square/tab-active.png",
         // Hover tab setting
         "layer2.texture": "Theme - Flatland/Flatland Dark/square/tab-hover.png"
+    },
+
+    // SQUARE BLUE TABS
+    {
+        "class": "tabset_control",
+        "settings": ["flatland_blue_square_tabs"],
+        "layer0.texture": "Theme - Flatland/Flatland Dark/square-blue/tabset-background.png",
+        "content_margin": [0, 0, 0, 0]
+        // "tab_overlap": 5
+    },
+    {
+        "class": "tab_control",
+        "settings": ["flatland_blue_square_tabs"],
+        // Inactive tab settings
+        "layer0.texture": "Theme - Flatland/Flatland Dark/square-blue/tab-inactive.png",
+        // Active tab setting
+        "layer1.texture": "Theme - Flatland/Flatland Dark/square-blue/tab-active.png",
+        // Hover tab setting
+        "layer2.texture": "Theme - Flatland/Flatland Dark/square-blue/tab-hover.png"
     },
 
 //
@@ -466,6 +501,12 @@
         "layer0.texture": "Theme - Flatland/Flatland Dark/sidebar-row-selected.png",
         "layer0.opacity": 0.0,
         "layer0.inner_margin": [1,1]
+    },
+    // Sidebar rows blue
+    {
+        "class": "tree_row",
+        "settings": ["flatland_blue"],
+        "layer0.texture": "Theme - Flatland/Flatland Dark/sidebar-row-selected-blue.png",
     },
     // Sidebar row selected
     {
