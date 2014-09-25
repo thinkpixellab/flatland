@@ -56,8 +56,17 @@ The following options can be set in your user preferences:
   // square file tabs instead of rounded corners
   "flatland_square_tabs": true,
 
+  // black background and slightly darker theme
+  "flatland_black_background": true,
+
+  // Flatland Dark color scheme with a black background color
+  "color_scheme": "Packages/Theme - Flatland/Flatland Black.tmTheme",
+
   // Monokai color scheme (SublimeText's default) with Flatland background color
   "color_scheme": "Packages/Theme - Flatland/Flatland Monokai.tmTheme",
+
+  // Monokai color scheme (SublimeText's default) with a black background color
+  "color_scheme": "Packages/Theme - Flatland/Flatland Monokai Black.tmTheme",
 
   // Ability to change row height of sidebar tree
   // Options: xsmall, small, medium, large, xlarge

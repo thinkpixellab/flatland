@@ -210,6 +210,11 @@
         "layer0.inner_margin": [0, 6],
         "blur": false
     },
+    {
+        "class": "scroll_bar_control",
+        "settings": ["flatland_black_background"],
+        "layer0.texture": "Theme - Flatland/Flatland Dark/black/standard-scrollbar-vertical.png"
+    },
     // Standard horizontal scroll bar
     {
         "class": "scroll_bar_control",
@@ -219,12 +224,23 @@
         "layer0.inner_margin": [6, 0],
         "blur": false
     },
+    {
+        "class": "scroll_bar_control",
+        "attributes": ["horizontal"],
+        "settings": ["flatland_black_background"],
+        "layer0.texture": "Theme - Flatland/Flatland Dark/black/standard-scrollbar-vertical.png"
+    },
     // Standard scroll bar corner
     {
         "class": "scroll_corner_control",
         "layer0.texture": "Theme - Flatland/Flatland Dark/standard-scrollbar-corner.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [1, 1]
+    },
+    {
+        "class": "scroll_corner_control",
+        "settings": ["flatland_black_background"],
+        "layer0.texture": "Theme - Flatland/Flatland Dark/black/standard-scrollbar-corner.png"
     },
     // Standard vertical scroll puck
     {
@@ -244,6 +260,12 @@
         "layer0.inner_margin": [10, 0],
         "content_margin": [12, 8],
         "blur": false
+    },
+    {
+        "class": "puck_control",
+        "attributes": ["horizontal"],
+        "settings": ["flatland_black_background"],
+        "layer0.texture": "Theme - Flatland/Flatland Dark/black/standard-puck-horizontal.png"
     },
 
 //
@@ -407,6 +429,11 @@
         "content_margin": [14, 4, 4, 4]
     },
     {
+        "class": "status_bar",
+        "settings": ["flatland_black_background"],
+        "layer0.texture": "Theme - Flatland/Flatland Dark/black/status-bar-background.png"
+    },
+    {
         "class": "status_button",
         "min_size": [100, 0]
     },
@@ -431,9 +458,18 @@
         "indent": 14,
         "indent_offset": 20,
         "indent_top_level": false,
-        "layer0.tint": [49, 52, 55],
         "layer0.opacity": 1.0,
         "dark_content": false
+    },
+    {
+        "class": "sidebar_tree",
+        "settings": ["!flatland_black_background"],
+        "layer0.tint": [49, 52 ,55],
+    },
+    {
+        "class": "sidebar_tree",
+        "settings": ["flatland_black_background"],
+        "layer0.tint": [0, 0, 0],
     },
     {
         "class": "sidebar_tree",
@@ -466,6 +502,11 @@
         "layer0.texture": "Theme - Flatland/Flatland Dark/sidebar-row-selected.png",
         "layer0.opacity": 0.0,
         "layer0.inner_margin": [1,1]
+    },
+    {
+        "class": "tree_row",
+        "settings": ["flatland_black_background"],
+        "layer0.texture": "Theme - Flatland/Flatland Dark/black/sidebar-row-selected.png"
     },
     // Sidebar row selected
     {
@@ -651,7 +692,7 @@
         "layer0.texture": "Theme - Flatland/Flatland Dark/text-field.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [10,10,10,10],
-        "content_margin": [4, 5, 15, 4]
+        "content_margin": [4, 5, 5, 4]
     },
 
 //
@@ -690,8 +731,17 @@
     {
         "class": "quick_panel",
         "row_padding": [5, 2],
-        "layer0.tint": [49, 52, 55],
         "layer0.opacity": 1.0
+    },
+    {
+        "class": "quick_panel",
+        "settings": ["!flatland_black_background"],
+        "layer0.tint": [49, 52 ,55]
+    },
+    {
+        "class": "quick_panel",
+        "settings": ["flatland_black_background"],
+        "layer0.tint": [0, 0, 0]
     },
     {
         "class": "quick_panel_row",
@@ -703,6 +753,12 @@
         "class": "quick_panel_row",
         "attributes": ["selected"],
         "layer0.texture": "Theme - Flatland/Flatland Dark/quick-panel-row-selected.png"
+    },
+    {
+        "class": "quick_panel_row",
+        "attributes": ["selected"],
+        "settings": ["flatland_black_background"],
+        "layer0.texture": "Theme - Flatland/Flatland Dark/black/quick-panel-row-selected.png"
     },
     {
         "class": "quick_panel_label",
@@ -750,9 +806,18 @@
     {
         "class": "auto_complete",
         "row_padding": [2, 2],
-        "layer0.tint": [30, 30, 30],
         "layer0.opacity": 1.0,
         "dark_content": true
+    },
+    {
+        "class": "auto_complete",
+        "settings": ["!flatland_black_background"],
+        "layer0.tint": [30, 30, 30]
+    },
+    {
+        "class": "auto_complete",
+        "settings": ["flatland_black_background"],
+        "layer0.tint": [22, 24, 26]
     },
     {
         "class": "auto_complete_label",
@@ -955,5 +1020,4 @@
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "layer0.texture": "Theme - Flatland/Flatland Dark/icon-highlight-on.png"
     }
-
 ]
