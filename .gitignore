@@ -1,3 +1,7 @@
+# Linux backup files
+*~
+*.orig
+
 # OS folder settings
 [Tt]humbs.db
 *.DS_Store
