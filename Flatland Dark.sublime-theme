@@ -620,7 +620,35 @@
     },
     {
         "class": "icon_folder_loading",
-        "content_margin": [0,0]
+        "layer0.texture":
+        {
+            "keyframes":
+            [
+                "Theme - Flatland/Flatland Dark/spinner/spin_1.png",
+                "Theme - Flatland/Flatland Dark/spinner/spin_2.png",
+                "Theme - Flatland/Flatland Dark/spinner/spin_3.png",
+                "Theme - Flatland/Flatland Dark/spinner/spin_4.png",
+                "Theme - Flatland/Flatland Dark/spinner/spin_5.png",
+                "Theme - Flatland/Flatland Dark/spinner/spin_6.png",
+                "Theme - Flatland/Flatland Dark/spinner/spin_7.png",
+                "Theme - Flatland/Flatland Dark/spinner/spin_8.png",
+                "Theme - Flatland/Flatland Dark/spinner/spin_9.png",
+                "Theme - Flatland/Flatland Dark/spinner/spin_10.png",
+                "Theme - Flatland/Flatland Dark/spinner/spin_11.png",
+                "Theme - Flatland/Flatland Dark/spinner/spin_12.png",
+                "Theme - Flatland/Flatland Dark/spinner/spin_13.png",
+                "Theme - Flatland/Flatland Dark/spinner/spin_14.png",
+                "Theme - Flatland/Flatland Dark/spinner/spin_15.png",
+                "Theme - Flatland/Flatland Dark/spinner/spin_16.png",
+                "Theme - Flatland/Flatland Dark/spinner/spin_17.png",
+                "Theme - Flatland/Flatland Dark/spinner/spin_18.png",
+                "Theme - Flatland/Flatland Dark/spinner/spin_19.png"
+            ],
+            "loop": true,
+            "frame_time": 0.05,
+        },
+        "layer0.opacity": 1.0,
+        "content_margin": [8, 8]
     },
 
 
