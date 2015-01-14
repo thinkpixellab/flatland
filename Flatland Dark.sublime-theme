@@ -645,7 +645,7 @@
                 "Theme - Flatland/Flatland Dark/spinner/spin_19.png"
             ],
             "loop": true,
-            "frame_time": 0.05,
+            "frame_time": 0.05
         },
         "layer0.opacity": 1.0,
         "content_margin": [8, 8]
