@@ -8,6 +8,7 @@
         "layer0.texture": "Theme - Flatland/Flatland Dark/tabset-background.png",
         "layer0.inner_margin": [10, 0],
         "layer0.opacity": 1.0,
+        "layer0.tint": [0, 31, 39],
         "content_margin": [0, 4, 0, 0],
         "tab_overlap": 6,
         "tab_width": 160,
@@ -29,7 +30,8 @@
         // Inactive tab settings
         "layer0.texture": "Theme - Flatland/Flatland Dark/tab-inactive.png",
         "layer0.inner_margin": [20, 4],
-        "layer0.opacity": 1.0,
+        "layer0.opacity": 0.9,
+        "layer0.tint": [0, 180, 200],
         // Active tab setting
         "layer1.texture": "Theme - Flatland/Flatland Dark/tab-active.png",
         "layer1.inner_margin": [20, 4],
@@ -49,14 +51,14 @@
         // Hover tab state
         "class": "tab_control",
         "attributes": ["hover"],
-        "layer2.opacity": 1.0
+        "layer2.opacity": 0.5
     },
     {
         // Active tab state
         "class": "tab_control",
         "attributes": ["selected"],
-        "layer0.opacity": 0.0,
-        "layer1.opacity": 1.0,
+        "layer0.opacity": 1.0,
+        "layer1.opacity": 0.4,
         "layer2.opacity": 0.0
     },
     // Tab labels
@@ -64,7 +66,7 @@
         "class": "tab_label",
         "fade": false,
         "fg": [144, 146, 147],
-        "font.bold" : false,
+        "font.bold" : true,
         "font.size" : 11
     },
     {
@@ -318,7 +320,7 @@
 
     {
         "class": "sheet_container_control",
-        "layer0.tint": [38,41,44],
+        "layer0.tint": [4, 32, 41],
         "layer0.opacity": 1.0
     },
 
@@ -337,7 +339,7 @@
 
     {
         "class": "minimap_control",
-        "viewport_color": [61, 142, 243, 20]
+        "viewport_color": [161, 142, 183, 40]
     },
 
 //
@@ -431,7 +433,7 @@
         "indent": 14,
         "indent_offset": 20,
         "indent_top_level": false,
-        "layer0.tint": [49, 52, 55],
+        "layer0.tint": [0, 31, 39],
         "layer0.opacity": 1.0,
         "dark_content": false
     },
@@ -484,7 +486,7 @@
     // Sidebar heading
     {
         "class": "sidebar_heading",
-        "color": [148, 149, 151],
+        "color": [24, 136, 210],
         "font.bold": true,
         "shadow_color": [148, 149, 151],
         "shadow_offset": [0, 0]
@@ -492,7 +494,7 @@
     // Sidebar entry
     {
         "class": "sidebar_label",
-        "color": [212, 212, 213],
+        "color": [153, 178, 184],
         "shadow_offset": [0, 0]
     },
     // Sidebar folder entry
@@ -656,10 +658,15 @@
 // STANDARD TEXT BUTTONS
 //
 
+    // General labels
+    {
+        "class": "label_control",
+        "color": [153, 178, 184]
+    },
     // Standard buttons (used for Find / Replace panel)
     {
         "class": "button_control",
-        "content_margin": [4, 6, 4, 5],
+        "content_margin": [8, 9, 6, 8],
         "min_size": [69, 0],
         // Default button state
         "layer0.texture": "Theme - Flatland/Flatland Dark/btn-large.png",
@@ -667,14 +674,15 @@
         "layer0.inner_margin": [6, 6],
         // Pressed button setup
         "layer1.texture": "Theme - Flatland/Flatland Dark/btn-large-on.png",
-        "layer1.opacity": 0.0,
+        "layer1.opacity": 1.0,
+        "layer1.tint": [40,140,250],
         "layer1.inner_margin": [6, 6]
     },
     {
         // Pressed button state
         "class": "button_control",
         "attributes": ["pressed", "hover"],
-        "layer1.opacity": 1.0
+        "layer1.opacity": 0.7
     },
 
 //
@@ -699,6 +707,7 @@
         "class": "panel_control",
         "layer0.texture": "Theme - Flatland/Flatland Dark/panel-background.png",
         "layer0.inner_margin": [2, 2, 2, 5],
+        "layer0.tint": [0, 31, 39],
         "layer0.opacity": 1.0
     },
     // Quick panel background
@@ -733,7 +742,8 @@
         "class": "quick_panel_row",
         "layer0.texture": "Theme - Flatland/Flatland Dark/quick-panel-row.png",
         "layer0.inner_margin": [2, 2, 2, 2],
-        "layer0.opacity": 1.0
+        "layer0.opacity": 1.0,
+        "layer0.tint": [0, 200, 250]
     },
     {
         "class": "quick_panel_row",
@@ -820,7 +830,7 @@
         "class": "icon_button_control",
         "layer0.texture": "Theme - Flatland/Flatland Dark/btn-group-middle.png",
         "layer0.opacity": 1.0,
-        "content_margin": [4, 4,4,5]
+        "content_margin": [4,4,4,5]
     },
     // Button group left
     {
@@ -828,7 +838,7 @@
         "attributes": ["left"],
         "layer0.texture": "Theme - Flatland/Flatland Dark/btn-group-left.png",
         "layer0.opacity": 1.0,
-        "content_margin": [8,4,5,5]
+        "content_margin": [4,4,5,5]
     },
     // Button group right
     {
@@ -836,7 +846,7 @@
         "attributes": ["right"],
         "layer0.texture": "Theme - Flatland/Flatland Dark/btn-group-right.png",
         "layer0.opacity": 1.0,
-        "content_margin": [4,4,8,5]
+        "content_margin": [4,4,4,5]
     },
     // Button single
     {
@@ -844,7 +854,7 @@
         "attributes": ["left", "right"],
         "layer0.texture": "Theme - Flatland/Flatland Dark/btn-single.png",
         "layer0.opacity": 1.0,
-        "content_margin": [8,4,8,5]
+        "content_margin": [11,4,11,5]
     },
 
 //
@@ -856,7 +866,7 @@
         "class": "icon_regex",
         "layer0.texture": "Theme - Flatland/Flatland Dark/icon-regex-off.png",
         "layer0.opacity": 1.0,
-        "content_margin": [8, 8]
+        "content_margin": [11, 11]
     },
     {
         "class": "icon_regex",
@@ -868,7 +878,7 @@
         "class": "icon_case",
         "layer0.texture": "Theme - Flatland/Flatland Dark/icon-case-off.png",
         "layer0.opacity": 1.0,
-        "content_margin": [8, 8]
+        "content_margin": [11, 11]
     },
     {
         "class": "icon_case",
@@ -880,7 +890,7 @@
         "class": "icon_whole_word",
         "layer0.texture": "Theme - Flatland/Flatland Dark/icon-word-off.png",
         "layer0.opacity": 1.0,
-        "content_margin": [8, 8]
+        "content_margin": [11, 11]
     },
     {
         "class": "icon_whole_word",
@@ -897,7 +907,7 @@
         "class": "icon_context",
         "layer0.texture": "Theme - Flatland/Flatland Dark/icon-context-off.png",
         "layer0.opacity": 1.0,
-        "content_margin": [8, 8]
+        "content_margin": [11, 11]
     },
     {
         "class": "icon_context",
@@ -909,7 +919,7 @@
         "class": "icon_use_buffer",
         "layer0.texture": "Theme - Flatland/Flatland Dark/icon-buffer-off.png",
         "layer0.opacity": 1.0,
-        "content_margin": [8, 8]
+        "content_margin": [11, 11]
     },
     {
         "class": "icon_use_buffer",
@@ -926,7 +936,7 @@
         "class": "icon_reverse",
         "layer0.texture": "Theme - Flatland/Flatland Dark/icon-reverse-off.png",
         "layer0.opacity": 1.0,
-        "content_margin": [8, 8]
+        "content_margin": [11, 11]
     },
     {
         "class": "icon_reverse",
@@ -938,7 +948,7 @@
         "class": "icon_wrap",
         "layer0.texture": "Theme - Flatland/Flatland Dark/icon-wrap-off.png",
         "layer0.opacity": 1.0,
-        "content_margin": [8, 8]
+        "content_margin": [11, 11]
     },
     {
         "class": "icon_wrap",
@@ -950,7 +960,7 @@
         "class": "icon_in_selection",
         "layer0.texture": "Theme - Flatland/Flatland Dark/icon-selection-off.png",
         "layer0.opacity": 1.0,
-        "content_margin": [8, 8]
+        "content_margin": [11, 11]
     },
     {
         "class": "icon_in_selection",
@@ -967,7 +977,7 @@
         "class": "icon_preserve_case",
         "layer0.texture": "Theme - Flatland/Flatland Dark/icon-preserve-off.png",
         "layer0.opacity": 1.0,
-        "content_margin": [8, 8]
+        "content_margin": [11, 11]
     },
     {
         "class": "icon_preserve_case",
@@ -984,7 +994,7 @@
         "class": "icon_highlight",
         "layer0.texture": "Theme - Flatland/Flatland Dark/icon-highlight-off.png",
         "layer0.opacity": 1.0,
-        "content_margin": [8, 8]
+        "content_margin": [11, 11]
     },
     {
         "class": "icon_highlight",
