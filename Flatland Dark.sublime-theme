@@ -88,7 +88,7 @@
         "content_margin": [0, 0],
         // Tab close default settings
         "layer0.texture": "Theme - Flatland/Flatland Dark/tab-close.png",
-        "layer0.opacity": 1.0,
+        "layer0.opacity": 0.5,
         "layer0.inner_margin": [0, 0],
         // Tab close hover settings
         "layer1.texture": "Theme - Flatland/Flatland Dark/tab-close-hover.png",
@@ -105,7 +105,7 @@
         "class": "tab_close_button",
         "attributes": ["hover"],
         "layer0.opacity": 0.0,
-        "layer1.opacity": 1.0
+        "layer1.opacity": 0.7
     },
     // Tab dirty button
     {
@@ -339,7 +339,7 @@
 
     {
         "class": "minimap_control",
-        "viewport_color": [161, 142, 183, 40]
+        "viewport_color": [161, 142, 183, 50]
     },
 
 //
@@ -396,21 +396,38 @@
         "class": "tool_tip_label_control",
         "color": [0, 0, 0]
     },
+    {
+        "class": "color_console",
+        "layer0.texture": "",
+        "layer0.opacity": 0.0,
+        "layer0.inner_margin": [2, 2],
+        "content_margin": [8, 8, 8, 8]
+    },
 
 //
 // STATUS BAR
 //
+
     // Status bar container
     {
         "class": "status_bar",
         "layer0.texture": "Theme - Flatland/Flatland Dark/status-bar-background.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [2, 2],
-        "content_margin": [14, 4, 4, 4]
+        "content_margin": [8, 8, 8, 8]
     },
+    // Status bar button
     {
         "class": "status_button",
         "min_size": [100, 0]
+    },
+    // Status bar label
+    {
+        "class": "label_control",
+        "parents": [{"class": "status_bar"}],
+        "color": [150, 150, 150],
+        "shadow_color": [25, 25, 25],
+        "shadow_offset": [0, -1]
     },
 
 //
@@ -666,16 +683,16 @@
     // Standard buttons (used for Find / Replace panel)
     {
         "class": "button_control",
-        "content_margin": [8, 9, 6, 8],
-        "min_size": [69, 0],
+        "content_margin": [8, 8, 8, 8],
+        "min_size": [72, 0],
         // Default button state
         "layer0.texture": "Theme - Flatland/Flatland Dark/btn-large.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [6, 6],
         // Pressed button setup
         "layer1.texture": "Theme - Flatland/Flatland Dark/btn-large-on.png",
-        "layer1.opacity": 1.0,
-        "layer1.tint": [140,200,255],
+        "layer1.opacity": 0.0,
+        "layer1.tint": [0, 72, 91],
         "layer1.inner_margin": [6, 6]
     },
     {
@@ -695,7 +712,7 @@
         "layer0.texture": "Theme - Flatland/Flatland Dark/text-field.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [10,10,10,10],
-        "content_margin": [4, 5, 15, 4]
+        "content_margin": [12, 5, 5, 5]
     },
 
 //
@@ -707,7 +724,7 @@
         "class": "panel_control",
         "layer0.texture": "Theme - Flatland/Flatland Dark/panel-background.png",
         "layer0.inner_margin": [2, 2, 2, 5],
-        "layer0.tint": [0, 31, 39],
+        "layer0.tint": [0, 32, 140],
         "layer0.opacity": 1.0
     },
     // Quick panel background
@@ -743,7 +760,7 @@
         "layer0.texture": "Theme - Flatland/Flatland Dark/quick-panel-row.png",
         "layer0.inner_margin": [2, 2, 2, 2],
         "layer0.opacity": 1.0,
-        "layer0.tint": [0, 200, 250]
+        "layer0.tint": [100, 200, 220]
     },
     {
         "class": "quick_panel_row",
@@ -752,14 +769,14 @@
     },
     {
         "class": "quick_panel_label",
-        "fg": [144, 146, 147],
+        "fg": [147, 179, 185],
         "match_fg": [36, 150, 233, 255],
         "selected_fg": [255, 255, 255, 255], //selected foreground
         "selected_match_fg": [37, 40, 43, 255]
     },
     {
         "class": "quick_panel_path_label",
-        "fg": [104, 106, 107, 255],
+        "fg": [49, 115, 199],
         "match_fg": [16, 130, 213, 255],
         "selected_fg": [215, 215, 215, 255],
         "selected_match_fg": [57, 60, 63, 255]
@@ -830,7 +847,7 @@
         "class": "icon_button_control",
         "layer0.texture": "Theme - Flatland/Flatland Dark/btn-group-middle.png",
         "layer0.opacity": 1.0,
-        "content_margin": [4,4,4,5]
+        "content_margin": [4,4,4,4]
     },
     // Button group left
     {
@@ -838,7 +855,7 @@
         "attributes": ["left"],
         "layer0.texture": "Theme - Flatland/Flatland Dark/btn-group-left.png",
         "layer0.opacity": 1.0,
-        "content_margin": [4,4,5,5]
+        "content_margin": [4,4,4,4]
     },
     // Button group right
     {
@@ -846,7 +863,7 @@
         "attributes": ["right"],
         "layer0.texture": "Theme - Flatland/Flatland Dark/btn-group-right.png",
         "layer0.opacity": 1.0,
-        "content_margin": [4,4,4,5]
+        "content_margin": [4,4,4,4]
     },
     // Button single
     {
@@ -854,7 +871,7 @@
         "attributes": ["left", "right"],
         "layer0.texture": "Theme - Flatland/Flatland Dark/btn-single.png",
         "layer0.opacity": 1.0,
-        "content_margin": [11,4,11,5]
+        "content_margin": [12,4,12,4]
     },
 
 //
