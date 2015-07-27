@@ -675,7 +675,7 @@
         // Pressed button setup
         "layer1.texture": "Theme - Flatland/Flatland Dark/btn-large-on.png",
         "layer1.opacity": 1.0,
-        "layer1.tint": [40,140,250],
+        "layer1.tint": [140,200,255],
         "layer1.inner_margin": [6, 6]
     },
     {
