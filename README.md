@@ -6,7 +6,7 @@ Flatland is a simple theme and accompanying color scheme for Sublime Text 2 & 3.
 
 ## Design
 
-![Screen Shot!](https://raw.github.com/thinkpixellab/flatland/master/screenshots.png)
+![Screen Shot!](https://github.com/grayghostvisuals/flatland/blob/ui-update/screenshots.png)
 
 
 ## Installation
