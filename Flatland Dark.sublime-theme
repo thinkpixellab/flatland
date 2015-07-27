@@ -712,7 +712,7 @@
         "layer0.texture": "Theme - Flatland/Flatland Dark/text-field.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [10,10,10,10],
-        "content_margin": [12, 5, 5, 5]
+        "content_margin": [8, 5, 5, 5]
     },
 
 //
