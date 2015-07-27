@@ -339,7 +339,7 @@
 
     {
         "class": "minimap_control",
-        "viewport_color": [161, 142, 183, 50]
+        "viewport_color": [161, 142, 253, 50]
     },
 
 //
