@@ -59,6 +59,9 @@ The following options can be set in your user preferences:
   // Monokai color scheme (SublimeText's default) with Flatland background color
   "color_scheme": "Packages/Theme - Flatland/Flatland Monokai.tmTheme",
 
+  // Light sublime theme
+  "theme": "Flatland Light.sublime-theme",
+
   // Light color scheme
   "color_scheme": "Packages/Theme - Flatland/Flatland Light.tmTheme",
 
