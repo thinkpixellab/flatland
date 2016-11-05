@@ -60,19 +60,6 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Python Docstring</string>
-			<key>scope</key>
-			<string>string.quoted.double.block.python</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#798188</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>Constant</string>
 			<key>scope</key>
 			<string>constant</string>
